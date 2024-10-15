@@ -14,3 +14,5 @@ if confirm == selectedpassword:
             print("Hasło już jest w bazie!")
         else:
             file.write("\n" + result)
+else:
+    print("Potwierdzenie hasła się nie zgadza!")
